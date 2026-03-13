@@ -1,0 +1,12 @@
+{
+    "crypto": [
+        {"symbol": "BTCUSDT", "name": "Bitcoin"},
+        {"symbol": "ETHUSDT", "name": "Ethereum"},
+        {"symbol": "BNBUSDT", "name": "Binance Coin"}
+    ],
+    "forex": [
+        {"symbol": "EURUSDT", "name": "Euro/US Dollar"},
+        {"symbol": "GBPUSDT", "name": "British Pound/US Dollar"},
+        {"symbol": "USDJPY", "name": "US Dollar/Japanese Yen"}
+    ]
+}
