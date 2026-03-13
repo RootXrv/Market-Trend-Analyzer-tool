@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Market Trend Analyzer - Main Program
+Market Trend Analyzer Tool- Main Program
 """
 
 import json
