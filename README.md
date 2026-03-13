@@ -81,34 +81,34 @@ Market Trend Analyzer is an advanced technical analysis tool that helps traders 
 ```bash
 pkg update -y && pkg upgrade -y
 pkg install python git nano -y
-git clone https://github.com/RootXrv/market-trend-analyzer.git
-cd market-trend-analyzer
+git clone https://github.com/RootXrv/market-trend-analyzer-tool.git
+cd market-trend-analyzer-tool
 pip install requests colorama pandas numpy
 chmod +x scripts/*.sh
 
 
 ## Daily Run
 ```bash
-cd ~/market-trend-analyzer
-python src/market_analyzer.py
+cd ~/market-trend-analyzer-tool
+python src/market-trend-analyzer-tool.py
 
 
 ## Update Tool
 ```bash
-cd ~/market-trend-analyzer
+cd ~/market-trend-analyzer-tool
 git pull
 pip install --upgrade -r requirements.txt
 
 
 ## Quick Analysis
 ```bash
-cd ~/market-trend-analyzer
-python src/market_analyzer.py --symbol BTCUSDT --interval 1h
+cd ~/market-trend-analyzer-tool
+python src/market-trend-analyzer-tool.py --symbol BTCUSDT --interval 1h
 
 
 ## Live Monitor
 ```bash
 cd ~/market-trend-analyzer
-python src/market_analyzer.py --monitor --symbol BTCUSDT
+python src/market-trend-analyzer-tool.py --monitor --symbol BTCUSDT
 
 # Press Ctrl+C to stop
