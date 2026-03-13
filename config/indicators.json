@@ -1,0 +1,11 @@
+{
+    "rsi": {
+        "period": 14,
+        "overbought": 70,
+        "oversold": 30
+    },
+    "moving_averages": {
+        "short": 10,
+        "long": 30
+    }
+}
