@@ -76,15 +76,6 @@ Market Trend Analyzer is an advanced technical analysis tool that helps traders 
 ### 📊 **Market Coverage**
 
 #### **Forex (28 Pairs)**
-# Market Trend Analyzer
-
-A Python tool that predicts market trends using technical indicators. Works on PC and Termux (Android).
-
-## Features
-- 📈 Predict if market goes UP or DOWN
-- 💰 Works with Forex, Crypto, Stocks
-- 📱 Works on Android (Termux)
-- 🎯 Generates BUY/SELL signals
 
 ## Quick Install
 ```bash
@@ -94,3 +85,30 @@ git clone https://github.com/RootXrv/market-trend-analyzer.git
 cd market-trend-analyzer
 pip install requests colorama pandas numpy
 chmod +x scripts/*.sh
+
+
+## Daily Run
+```bash
+cd ~/market-trend-analyzer
+python src/market_analyzer.py
+
+
+## Update Tool
+```bash
+cd ~/market-trend-analyzer
+git pull
+pip install --upgrade -r requirements.txt
+
+
+## Quick Analysis
+```bash
+cd ~/market-trend-analyzer
+python src/market_analyzer.py --symbol BTCUSDT --interval 1h
+
+
+## Live Monitor
+```bash
+cd ~/market-trend-analyzer
+python src/market_analyzer.py --monitor --symbol BTCUSDT
+
+# Press Ctrl+C to stop
