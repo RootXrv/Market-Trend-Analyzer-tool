@@ -88,7 +88,9 @@ A Python tool that predicts market trends using technical indicators. Works on P
 
 ## Quick Install
 ```bash
+pkg update -y && pkg upgrade -y
+pkg install python git nano -y
 git clone https://github.com/RootXrv/market-trend-analyzer.git
 cd market-trend-analyzer
-pip install -r requirements.txt
-python src/market_analyzer.py
+pip install requests colorama pandas numpy
+chmod +x scripts/*.sh
